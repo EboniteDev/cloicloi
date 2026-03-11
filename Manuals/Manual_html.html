@@ -1,0 +1,628 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-16"/>
+	<title>CLoI_CLoI HTML Manual</title>
+	<style type="text/css">
+		@page { size: 8.27in 11.69in; margin: 0.1in }
+		p { line-height: 115%; margin-bottom: 0.1in; background: transparent; page-break-before: auto }
+		p.western { font-family: Monospace; font-size: 12pt }
+		p.cjk { font-family: "Noto Serif CJK JP", serif; font-size: 15pt; so-language: ja-JP }
+		td p { orphans: 0; widows: 0; background: transparent }
+		td p.western { font-family: Monospace; font-size: 12pt }
+		a:link { color: white; text-decoration: underline }
+		a:visited { color: white; text-decoration: underline }
+	</style>
+</head>
+<body lang="en-US" link="#000080" vlink="#800000" bgcolor="#000000" dir="ltr"><p class="western" style="line-height: 100%; margin-bottom: 0in">
+<font color="#ffffff">Page 1 / X</font></p>
+<p align="left" style="line-height: 100%; margin-top: 0.17in; margin-bottom: 0.08in; page-break-before: auto; page-break-after: avoid">
+<font color="orange"><font size="7" style="font-size: 32pt"><b>CLoI_CLoI
+– CLI – Game manual</b></font></font></p>
+<p align="left" style="line-height: 100%; margin-top: 0.04in; margin-bottom: 0.08in; page-break-before: auto; page-break-after: avoid">
+<font color="#ffffff"><font size="5" style="font-size: 20pt">Summary:</font></font></p>
+<p class="western" align="left" style="line-height: 100%; margin-bottom: 0in; page-break-before: auto">
+<br/>
+
+</p>
+<p class="western" align="left" style="line-height: 100%; margin-bottom: 0in; page-break-before: auto">
+<font color="#ffffff"><i><b><a href="#about">About</a></b></i>													----- (2)</font></p>
+<p class="western" align="left" style="line-height: 100%; margin-bottom: 0in; page-break-before: auto">
+<font color="#ffffff">	<a href="#online">Online infos and Download Verification</a></font></p>
+<p class="western" align="left" style="line-height: 100%; margin-bottom: 0in; page-break-before: auto">
+<font color="#ffffff">	<a href="#license">License</a></font></p>
+<p class="western" align="left" style="line-height: 100%; margin-bottom: 0in; page-break-before: auto">
+<br/>
+
+</p>
+<p class="western" align="left" style="line-height: 100%; margin-bottom: 0in; page-break-before: auto">
+<font color="#ffffff"><i><b><a href="#rules">Koikoi rules</a></b></i><i> </i>												-----
+(3)</font></p>
+<p class="western" align="left" style="line-height: 100%; margin-bottom: 0in; page-break-before: auto">
+<font color="#ffffff">	<a href="#deck">Koikoi cards deck</a></font></p>
+<p class="western" align="left" style="line-height: 100%; margin-bottom: 0in; page-break-before: auto">
+<font color="#ffffff">	<a href="#game">A typical Koikoi game</a></font></p>
+<p class="western" align="left" style="line-height: 100%; margin-bottom: 0in; page-break-before: auto">
+<br/>
+
+</p>
+<p class="western" align="left" style="line-height: 100%; margin-bottom: 0in; page-break-before: auto">
+<font color="#ffffff"><i><b><a href="#cardsandyaku">Cards and Winning combinations (Yaku)</a></b></i> 						----- (5)</font></p>
+<p class="western" align="left" style="line-height: 100%; margin-bottom: 0in; page-break-before: auto">
+<font color="#ffffff">	<a href="#ascii">Standard ASCII art of the cards</a></font></p>
+<p class="western" align="left" style="line-height: 100%; margin-bottom: 0in; page-break-before: auto">
+<br/>
+
+</p>
+<p class="western" align="left" style="line-height: 100%; margin-bottom: 0in; page-break-before: auto">
+<font color="#ffffff"><i><b><a href="#cmd">CLI game commands</a></b></i>
+											----- (9)</font></p>
+<p class="western" align="left" style="line-height: 100%; margin-bottom: 0in; page-break-before: auto">
+<br/>
+
+</p>
+<p class="western" align="left" style="line-height: 100%; margin-bottom: 0in; page-break-before: auto">
+<font color="#ffffff"><i><b><a href="#language">Language selection</a></b></i><i><b> </b></i><i><b>and</b></i><i><b>
+customization</b></i> 							----- (X)</font></p>
+<p class="western" align="left" style="line-height: 100%; margin-bottom: 0in; page-break-before: auto">
+<br/>
+
+</p>
+<p class="western" align="left" style="line-height: 100%; margin-bottom: 0in; page-break-before: auto">
+<font color="#ffffff"><i><b><a href="#about">ASCII Art customization</a></b></i>
+									----- (X)</font></p>
+<p class="western" align="left" style="line-height: 100%; margin-bottom: 0in; page-break-before: always">
+<br/>
+
+</p>
+<hr/>
+
+
+<!--################################# - ABOUT - #######################################-->
+
+
+<div id="about">
+<p class="western" style="line-height: 100%; margin-bottom: 0in; page-break-before: auto">
+<font color="#ffffff">Page 2 / X [ <a href="#top">Return to summary</a> ]</font></p>
+<p align="left" style="line-height: 100%; margin-top: 0.17in; margin-bottom: 0.08in; page-break-before: auto; page-break-after: avoid">
+<font color="orange"><font size="7" style="font-size: 32pt"><b>About</b></font></font></p>
+<p class="western"><font color="#ffffff">If you are having problems
+in displaying the Japanese text or ASCII art We suggest to change
+from UTF-8 to UTF-16.</font></p>
+<p class="western"><font color="#ffffff">Welcome to <span lang="zxx">CC
+(CloI_CLoI)</span>. This manual has been written in LibreOffice and
+exported as a HTML file.</font></p>
+<p class="western"><font color="#ffffff">This python based
+application is a Koikoi game (3). The user can play Koikoi with the
+Terminal (in this CLI edition). This application is developed in
+Debian with python scripts.</font></p>
+<p class="western"><font color="#ffffff">Modifying the app’s
+language is possible through the commands or through adding a custom
+language in the JSON database file (LANG_PAGE); it is also possible
+to customize the ASCII art of the playing cards (ASCII_PAGE).</font></p>
+<p class="western"><font color="#ffffff">We highly discourage the
+modification of the game commands, in order to not disrupt any
+possible update or game functions.</font></p>
+<p class="western"><font color="#ffffff">It is also recommended to
+keep the UTF-16 universal format.</font></p>
+<p align="left" style="line-height: 100%; margin-top: 0.04in; margin-bottom: 0.08in; page-break-before: auto; page-break-after: avoid">
+
+<div id="online">
+<font color="#ffffff"><font size="5" style="font-size: 20pt">Online
+infos:</font></font></p>
+<p class="western"><font color="#ffffff">This CLI application is
+available on the GitHub repository at:</font></p>
+<p class="western"><a href="https://github.com/user/RedRiotDev/repository/CLoICLoI"><font color="#ffffff">https://github.com/user/RedRiotDev/</font><font color="#ffffff">repository/CLoICLoI</font></a></p>
+<p class="western"><font color="#ffffff">There you can also find the
+PGP keys to verify your download.</font></p>
+<p align="left" style="line-height: 100%; margin-top: 0.04in; margin-bottom: 0.08in; page-break-before: auto; page-break-after: avoid">
+</div>
+
+<div id="license">
+<font color="#ffffff"><font size="5" style="font-size: 20pt">License:</font></font></p>
+<p class="western"><font color="#ffffff">The license used for the
+software is: XYZ-1234</font></p>
+<p class="western"><font color="#ffffff">The fundamental rules to be
+applied are:</font></p>
+<ul>
+	<li><p class="western"></p>
+</ul>
+<hr/>
+</div>
+
+</div>
+
+
+<!--################################# - RULES - #######################################-->
+
+
+<div id="rules">
+  <p class="western" style="line-height: 100%; margin-bottom: 0in; page-break-before: auto">
+  <font color="#ffffff">Page 3 / X [ <a href="#top">Return to summary</a> ]</font></p>
+  <p align="left" style="line-height: 100%; margin-top: 0.17in; margin-bottom: 0.08in; page-break-before: auto; page-break-after: avoid">
+  <font color="orange"><font size="7" style="font-size: 32pt"><b>Koikoi
+  rules</b></font></font></p>
+  <p class="western"><font color="#ffffff">Koikoi (<font face="Noto Serif CJK JP, serif"><font size="4" style="font-size: 15pt"><span lang="ja-JP"><font size="4" style="font-size: 15pt">こいこい</font></span></font></font>)
+  is a Japanese playing cards game where the objective is to combine
+  the cards in a specific pattern (not in order) to gain points to add
+  to their score (<font face="Noto Serif CJK JP, serif"><font size="4" style="font-size: 15pt"><span lang="ja-JP">文「ぶん」</span></font></font>bun).
+  In real life the cards have different front designs while, typically,
+  the rear is black; the dimensions of the cards are smaller than poker
+  cards.</font></p>
+  <p class="western"><font color="#ffffff">The cards used are the
+  Hanafuda (<font face="Noto Serif CJK JP, serif"><font size="4" style="font-size: 15pt"><span lang="ja-JP">花札「はなふだ」</span></font></font>)
+  cards.</font></p>
+  <p align="left" style="line-height: 100%; margin-top: 0.04in; margin-bottom: 0.08in; page-break-before: auto; page-break-after: avoid">
+  <font color="#ffffff"><font size="5" style="font-size: 20pt">Koikoi
+  cards deck (CARDS_PAGE)</font></font></p>
+  <p class="western"><font color="#ffffff">A deck of koikoi cards is
+  made up of 48 total cards divided by season. Each season of the year
+  has 4 cards that are from 3 out of the 4 groups of cards: bright,
+  animal, ribbon, chaffs ( 1 point ); except December that has one
+  bright card and three chaffs ( 1 point ).</font></p>
+  <p align="left" style="line-height: 100%; margin-top: 0.04in; margin-bottom: 0.08in; page-break-before: auto; page-break-after: avoid">
+  <font color="#ffffff"><font size="5" style="font-size: 20pt">A
+  typical Koikoi game:</font></font></p>
+  <p class="western"><font color="#ffffff">In this version of the game
+  each player starts with the score/life of 20<font face="Noto Serif CJK JP, serif"><font size="4" style="font-size: 15pt"><span lang="ja-JP">文</span></font></font>.</font></p>
+  <p class="western"><font color="#ffffff">A player starts by choosing
+  between two cards extracted within the deck. After revealing both
+  cards the player who got the lowest number of season (January=1,
+  February=2 etc…) and the highest value (if the seasons are the
+  same) begins the round. The player starting is called Oya (<font face="Noto Serif CJK JP, serif"><font size="4" style="font-size: 15pt"><span lang="ja-JP">親「おや」</span></font></font>)<font face="Noto Serif CJK JP, serif"><font size="4" style="font-size: 15pt"><span lang="ja-JP">　</span></font></font>the
+  other is called Ko(<font face="Noto Serif CJK JP, serif"><font size="4" style="font-size: 15pt"><span lang="ja-JP">子
+  「こ」</span></font></font>)</font></p>
+  <p class="western"><font color="#ffffff">Each player begins with 8
+  cards in their hands and 8 other cards are placed on the table.</font></p>
+  <p class="western"><font color="#ffffff">Each round the player
+  chooses which season-card to take with any other season-card there is
+  on the table, then those cards are placed on the “revealed hand”
+  in which the combinations/scores take effect. After this, one other
+  card is extracted from the deck and placed on the table, IF the
+  extracted card is of a season present on the table then those cards
+  are added to the “revealed hand” of the player, until there are
+  no matches made by the table cards the extracted card remains on the
+  table to be in-game on the next turn.</font></p>
+  <p class="western"><font color="#ffffff">Immediately after having
+  completed a combination (<font face="Noto Serif CJK JP, serif"><font size="4" style="font-size: 15pt"><span lang="ja-JP">役「やく」</span></font></font>Yaku)
+  the player can decide if they want to continue (calling koikoi <font face="Noto Serif CJK JP, serif"><font size="4" style="font-size: 15pt"><span lang="ja-JP">こいこい</span></font></font>)
+  or pass the turn (calling shōbu <font face="Noto Serif CJK JP, serif"><font size="4" style="font-size: 15pt"><span lang="ja-JP">勝負「しょうぶ」</span></font></font>)and
+  collect the amount of points the yaku values. By continuing the round
+  you have to possibility to gain more points, (even if not continuing)
+  when you have 7+ points your score will double the value, if the
+  player who continued doesn’t make any points in the round they will
+  gain 0 points meanwhile if the opponent gains points their points
+  will double regardless if they have scored 7+ points. Otherwise no
+  points are awarded to anyone.</font></p>
+  <p class="western"><font color="#ffffff">The points are transferred
+  from the score/life (<font face="Noto Serif CJK JP, serif"><font size="4" style="font-size: 15pt"><span lang="ja-JP">文</span></font></font>)
+  of the opponent to the winner, the game finishes when one player has
+  reached 0 in the score label.</font></p>
+  <p class="western"><font color="#ffffff">Every yaku has a different
+  amount of points assigned (YAKU_PAGE).</font></p>
+  <p class="western"><font color="#ffffff">The winner becomes the Oya
+  (dealer) for the next round.</font></p>
+  <hr/>
+  </div>
+
+
+<!--################################# - Cards and Yaku - #######################################-->
+
+<div id="cardsandyaku">
+  <p class="western" style="line-height: 100%; margin-bottom: 0in; page-break-before: auto">
+  <font color="#ffffff">Page 5 / X [ <a href="#top">Return to summary</a> ]</font></p>
+  <p align="left" style="line-height: 100%; margin-top: 0.17in; margin-bottom: 0.08in; page-break-before: auto; page-break-after: avoid">
+  <font color="orange"><font size="6" style="font-size: 24pt"><b>Cards
+  and Winning combinations (Yaku)</b></font></font></p>
+  <p align="left" style="line-height: 100%; margin-top: 0.04in; margin-bottom: 0.08in; page-break-before: auto; page-break-after: avoid">
+  <font color="#ffffff"><font size="5" style="font-size: 20pt">Season:
+  January – Pine tree</font><font face="Noto Serif CJK JP, serif"><font size="6" style="font-size: 22pt"><span lang="ja-JP">（松「まつ」</span></font></font><font size="5" style="font-size: 20pt">Matsu</font><font face="Noto Serif CJK JP, serif"><font size="6" style="font-size: 22pt"><span lang="ja-JP">）</span></font></font></font></p>
+  <p class="western"><font color="#ffffff">	Cards:</font></p>
+  <p class="western"><font color="#ffffff">		Crane and Sun –
+  Light/Bright card ( 20 points )</font></p>
+  <p class="western"><font color="#ffffff">		Anoyoroshi Poetry Red
+  Ribbon ( 5 points )</font></p>
+  <p class="western"><font color="#ffffff">		2 chaffs ( 1 point ) cards</font></p>
+  <p align="left" style="line-height: 100%; margin-top: 0.04in; margin-bottom: 0.08in; page-break-before: auto; page-break-after: avoid">
+  <font color="#ffffff"><font size="5" style="font-size: 20pt">Season:
+  February – Plum blossoms</font><font face="Noto Serif CJK JP, serif"><font size="5" style="font-size: 20pt"><span lang="ja-JP">（梅「うめ」</span></font></font><font size="5" style="font-size: 20pt">Ume</font><font face="Noto Serif CJK JP, serif"><font size="5" style="font-size: 20pt"><span lang="ja-JP">）</span></font></font></font></p>
+  <p class="western"><font color="#ffffff">	Cards:</font></p>
+  <p class="western"><font color="#ffffff">		Bush warbler – Animal
+  card ( 10 points )</font></p>
+  <p class="western"><font color="#ffffff">		Anoyoroshi Poetry Red
+  Ribbon ( 5 points )</font></p>
+  <p class="western"><font color="#ffffff">		2 chaffs ( 1 point )</font></p>
+  <p align="left" style="line-height: 100%; margin-top: 0.04in; margin-bottom: 0.08in; page-break-before: auto; page-break-after: avoid">
+  <font color="#ffffff"><font size="5" style="font-size: 18pt">Season:
+  March – Cherry blossoms</font><font face="Noto Serif CJK JP, serif"><font size="5" style="font-size: 18pt"><span lang="ja-JP">（桜「さくら」</span></font></font><font size="5" style="font-size: 18pt">Sakura</font><font face="Noto Serif CJK JP, serif"><font size="5" style="font-size: 18pt"><span lang="ja-JP">）</span></font></font></font></p>
+  <p class="western"><font color="#ffffff">	Cards:</font></p>
+  <p class="western"><font color="#ffffff">		Curtain - Light ( 20
+  points )</font></p>
+  <p class="western"><font color="#ffffff">		Mi?na?shino Poetry Red
+  Ribbon ( 5 points )</font></p>
+  <p class="western"><font color="#ffffff">		2 chaffs ( 1 point )</font></p>
+  <p align="left" style="line-height: 100%; margin-top: 0.04in; margin-bottom: 0.08in; page-break-before: auto; page-break-after: avoid">
+  <font color="#ffffff"><font size="5" style="font-size: 20pt">Season:
+  April – Wisteria</font><font face="Noto Serif CJK JP, serif"><font size="6" style="font-size: 22pt"><span lang="ja-JP">（藤「ふじ」</span></font></font><font size="5" style="font-size: 20pt">Fuji</font><font face="Noto Serif CJK JP, serif"><font size="6" style="font-size: 22pt"><span lang="ja-JP">）</span></font></font></font></p>
+  <p class="western"><font color="#ffffff">	Cards:</font></p>
+  <p class="western"><font color="#ffffff">		Cuckoo - Animal ( 10
+  points )</font></p>
+  <p class="western"><font color="#ffffff">		Plain Red Ribbon ( 5
+  points )</font></p>
+  <p class="western"><font color="#ffffff">		2 chaffs ( 1 point )</font></p>
+  <p align="left" style="line-height: 100%; margin-top: 0.04in; margin-bottom: 0.08in; page-break-before: auto; page-break-after: avoid">
+  <font color="#ffffff"><font size="5" style="font-size: 20pt">Season:
+  May – Iris</font><font face="Noto Serif CJK JP, serif"><font size="6" style="font-size: 22pt"><span lang="ja-JP">（菖蒲「あやめ」</span></font></font><font size="5" style="font-size: 20pt">Ayame</font><font face="Noto Serif CJK JP, serif"><font size="6" style="font-size: 22pt"><span lang="ja-JP">）</span></font></font></font></p>
+  <p class="western"><font color="#ffffff">	Cards:</font></p>
+  <p class="western"><font color="#ffffff">		Eight-plank bridge -
+  Animal ( 10 points )</font></p>
+  <p class="western"><font color="#ffffff">		Plain Red Ribbon ( 5
+  points )</font></p>
+  <p class="western"><font color="#ffffff">		2 chaffs ( 1 point )</font></p>
+  <p align="left" style="line-height: 100%; margin-top: 0.04in; margin-bottom: 0.08in; page-break-before: auto; page-break-after: avoid">
+  <font color="#ffffff"><font size="5" style="font-size: 20pt">Season:
+  June – Peony</font><font face="Noto Serif CJK JP, serif"><font size="6" style="font-size: 22pt"><span lang="ja-JP">（牡丹「ぼたん」</span></font></font><font size="5" style="font-size: 20pt">Botan</font><font face="Noto Serif CJK JP, serif"><font size="6" style="font-size: 22pt"><span lang="ja-JP">）</span></font></font></font></p>
+  <p class="western"><font color="#ffffff">	Cards:</font></p>
+  <p class="western"><font color="#ffffff">		Butterflies - Animal ( 10
+  points )</font></p>
+  <p class="western"><font color="#ffffff">		Blue Ribbon ( 5 points )</font></p>
+  <p class="western"><font color="#ffffff">		2 chaffs ( 1 point )</font></p>
+  <p align="left" style="line-height: 100%; margin-top: 0.04in; margin-bottom: 0.08in; page-break-before: auto; page-break-after: avoid">
+  <font color="#ffffff"><font size="5" style="font-size: 20pt">Season:
+  July – Bush Clover</font><font face="Noto Serif CJK JP, serif"><font size="6" style="font-size: 22pt"><span lang="ja-JP">（萩「はぎ」</span></font></font><font size="5" style="font-size: 20pt">Hagi</font><font face="Noto Serif CJK JP, serif"><font size="6" style="font-size: 22pt"><span lang="ja-JP">）</span></font></font></font></p>
+  <p class="western"><font color="#ffffff">	Cards:</font></p>
+  <p class="western"><font color="#ffffff">		Boar - Animal ( 10 points
+  )</font></p>
+  <p class="western"><font color="#ffffff">		Plain Red Ribbon ( 5
+  points )</font></p>
+  <p class="western"><font color="#ffffff">		2 chaffs ( 1 point )</font></p>
+  <p align="left" style="line-height: 100%; margin-top: 0.04in; margin-bottom: 0.08in; page-break-before: auto; page-break-after: avoid">
+  <font color="#ffffff"><font size="5" style="font-size: 20pt">Season:
+  August – Susuki grass</font><font face="Noto Serif CJK JP, serif"><font size="6" style="font-size: 22pt"><span lang="ja-JP">（芒「すすき」）</span></font></font></font></p>
+  <p class="western"><font color="#ffffff">	Cards:</font></p>
+  <p class="western"><font color="#ffffff">		Full moon - Light ( 20
+  points )</font></p>
+  <p class="western"><font color="#ffffff">		Geese - Animal ( 10 points
+  )</font></p>
+  <p class="western"><font color="#ffffff">		2 chaffs ( 1 point )</font></p>
+  <p align="left" style="line-height: 100%; margin-top: 0.04in; margin-bottom: 0.08in; page-break-before: auto; page-break-after: avoid">
+  <font color="#ffffff"><font size="5" style="font-size: 20pt">Season:
+  September – Chrysanthemum(</font><font face="Noto Serif CJK JP, serif"><font size="5" style="font-size: 20pt"><span lang="ja-JP">菊「きく」</span></font></font><font size="5" style="font-size: 20pt">Kiku)</font></font></p>
+  <p class="western"><font color="#ffffff">	Cards:</font></p>
+  <p class="western"><font color="#ffffff">		Sake cup - Animal ( 10
+  points )</font></p>
+  <p class="western"><font color="#ffffff">		Blue Ribbon ( 5 points )</font></p>
+  <p class="western"><font color="#ffffff">		2 chaffs ( 1 point )</font></p>
+  <p align="left" style="line-height: 100%; margin-top: 0.04in; margin-bottom: 0.08in; page-break-before: auto; page-break-after: avoid">
+  <font color="#ffffff"><font size="5" style="font-size: 20pt">Season:
+  October – Maple</font><font face="Noto Serif CJK JP, serif"><font size="6" style="font-size: 22pt"><span lang="ja-JP">（紅葉「もみじ」</span></font></font><font size="5" style="font-size: 20pt">Momiji</font><font face="Noto Serif CJK JP, serif"><font size="6" style="font-size: 22pt"><span lang="ja-JP">）</span></font></font></font></p>
+  <p class="western"><font color="#ffffff">	Cards:</font></p>
+  <p class="western"><font color="#ffffff">		Deer - Animal ( 10 points
+  )</font></p>
+  <p class="western"><font color="#ffffff">		Blue Ribbon ( 5 points )</font></p>
+  <p class="western"><font color="#ffffff">		2 chaffs ( 1 point )</font></p>
+  <p align="left" style="line-height: 100%; margin-top: 0.04in; margin-bottom: 0.08in; page-break-before: auto; page-break-after: avoid">
+  <font color="#ffffff"><font size="5" style="font-size: 20pt">Season:
+  November – Willow</font><font face="Noto Serif CJK JP, serif"><font size="6" style="font-size: 22pt"><span lang="ja-JP">（柳「やなぎ」</span></font></font><font size="5" style="font-size: 20pt">Yanagi</font><font face="Noto Serif CJK JP, serif"><font size="6" style="font-size: 22pt"><span lang="ja-JP">）</span></font></font></font></p>
+  <p class="western"><font color="#ffffff">	Cards:</font></p>
+  <p class="western"><font color="#ffffff">		Ono no Michikaze / Ono no
+  Tōfū / Rainman card - Light ( 20 points )</font></p>
+  <p class="western"><font color="#ffffff">		Swallow - Animal ( 10
+  points )</font></p>
+  <p class="western"><font color="#ffffff">		Plain Red Ribbon ( 5
+  points )</font></p>
+  <p class="western"><font color="#ffffff">		Lightning / Demon - Chaff
+  card</font></p>
+  <p align="left" style="line-height: 100%; margin-top: 0.04in; margin-bottom: 0.08in; page-break-before: auto; page-break-after: avoid">
+  <font color="#ffffff"><font size="5" style="font-size: 20pt">Season:
+  December – Paulownia</font><font face="Noto Serif CJK JP, serif"><font size="6" style="font-size: 22pt"><span lang="ja-JP">（桐「きり」</span></font></font><font size="5" style="font-size: 20pt">Kiri</font><font face="Noto Serif CJK JP, serif"><font size="6" style="font-size: 22pt"><span lang="ja-JP">）</span></font></font></font></p>
+  <p class="western"><font color="#ffffff">	Cards:</font></p>
+  <p class="western"><font color="#ffffff">		Phoenix (<font face="Noto Serif CJK JP, serif"><font size="4" style="font-size: 15pt"><span lang="ja-JP">鳳凰「ほうおう」</span></font></font>Hōō)
+  - Light ( 20 points )</font></p>
+  <p class="western"><font color="#ffffff">		3 chaffs ( 1 point )</font></p>
+  <p align="left" style="line-height: 100%; margin-top: 0.04in; margin-bottom: 0.08in; page-break-before: auto; page-break-after: avoid">
+  <font color="#ffffff"><font size="5" style="font-size: 20pt">Winning
+  combinations (Yaku)</font></font></p>
+  <p class="western"><font color="#ffffff">Dealt yaku:</font></p>
+  <table width="100%" cellpadding="0" cellspacing="0">
+	  <col width="51*"/>
+
+	  <col width="51*"/>
+
+	  <col width="51*"/>
+
+	  <col width="102*"/>
+
+	  <tr valign="top">
+		  <td width="20%" style="border: none; padding: 0in"><p class="western">
+			  <font color="#ffffff">Japanese Name</font></p>
+		  </td>
+		  <td width="20%" style="border: none; padding: 0in"><p class="western">
+			  <font color="#ffffff">English Name</font></p>
+		  </td>
+		  <td width="20%" style="border: none; padding: 0in"><p class="western">
+			  <font color="#ffffff">Points awarded</font></p>
+		  </td>
+		  <td width="40%" style="border: none; padding: 0in"><p class="western">
+			  <font color="#ffffff">Definition</font></p>
+		  </td>
+	  </tr>
+	  <tr valign="top">
+		  <td width="20%" style="border: none; padding: 0in"><p class="western">
+			  <font color="#ffffff"><font face="Noto Serif CJK JP, serif"><font size="4" style="font-size: 15pt"><span lang="zh-CN">手四「てし」</span></font></font>Teshi</font></p>
+		  </td>
+		  <td width="20%" style="border: none; padding: 0in"><p class="western">
+			  <font color="#ffffff">Four Hands</font></p>
+		  </td>
+		  <td width="20%" style="border: none; padding: 0in"><p class="western">
+			  <font color="#ffffff">6 pts</font></p>
+		  </td>
+		  <td width="40%" style="border: none; padding: 0in"><p class="western">
+			  <font color="#ffffff">4 cards of the same season</font></p>
+		  </td>
+	  </tr>
+	  <tr valign="top">
+		  <td width="20%" style="border: none; padding: 0in"><p class="western">
+			  <font color="#ffffff"><font face="Noto Serif CJK JP, serif"><font size="4" style="font-size: 15pt"><span lang="zh-CN">くっつき　</span></font></font>Kuttsuki</font></p>
+		  </td>
+		  <td width="20%" style="border: none; padding: 0in"><p class="western">
+			  <font color="#ffffff">Sticky</font></p>
+		  </td>
+		  <td width="20%" style="border: none; padding: 0in"><p class="western">
+			  <font color="#ffffff">6 pts</font></p>
+		  </td>
+		  <td width="40%" style="border: none; padding: 0in"><p class="western">
+			  <font color="#ffffff">4 pairs of cards with matching season</font></p>
+		  </td>
+	  </tr>
+  </table>
+  <p class="western"><br/>
+  <br/>
+
+  </p>
+  <p class="western"><font color="#ffffff">Formed yaku:</font></p>
+  <table width="100%" cellpadding="0" cellspacing="0">
+	  <col width="64*"/>
+
+	  <col width="64*"/>
+
+	  <col width="64*"/>
+
+	  <col width="64*"/>
+
+	  <tr valign="top">
+		  <td width="25%" style="border: none; padding: 0in"><p class="western">
+			  <font color="#ffffff">Japanese Name</font></p>
+		  </td>
+		  <td width="25%" style="border: none; padding: 0in"><p class="western">
+			  <font color="#ffffff">English Name</font></p>
+		  </td>
+		  <td width="25%" style="border: none; padding: 0in"><p class="western">
+			  <font color="#ffffff">Points awarded</font></p>
+		  </td>
+		  <td width="25%" style="border: none; padding: 0in"><p class="western">
+			  <font color="#ffffff">Definition</font></p>
+		  </td>
+	  </tr>
+	  <tr valign="top">
+		  <td width="25%" style="border: none; padding: 0in"><p class="western">
+			  <font color="#ffffff"><font face="Noto Serif CJK JP, serif"><font size="4" style="font-size: 15pt"><span lang="zh-CN">五光「ごこう」</span></font></font>Gokō</font></p>
+		  </td>
+		  <td width="25%" style="border: none; padding: 0in"><p class="western">
+			  <font color="#ffffff">Five Lights</font></p>
+		  </td>
+		  <td width="25%" style="border: none; padding: 0in"><p class="western">
+			  <font color="#ffffff">10</font></p>
+		  </td>
+		  <td width="25%" style="border: none; padding: 0in"><p class="western">
+			  <font color="#ffffff">All 20 points cards</font></p>
+		  </td>
+	  </tr>
+	  <tr valign="top">
+		  <td width="25%" style="border: none; padding: 0in"><p class="western">
+			  <font color="#ffffff"><font face="Noto Serif CJK JP, serif"><font size="4" style="font-size: 15pt"><span lang="zh-CN">四光「しこう」</span></font></font>Shikō</font></p>
+		  </td>
+		  <td width="25%" style="border: none; padding: 0in"><p class="western">
+			  <font color="#ffffff">Four Lights</font></p>
+		  </td>
+		  <td width="25%" style="border: none; padding: 0in"><p class="western">
+			  <font color="#ffffff">8</font></p>
+		  </td>
+		  <td width="25%" style="border: none; padding: 0in"><p class="western">
+			  <font color="#ffffff">All 20 points cards EXCEPT Ono no Michikaze
+			  / Rainman card</font></p>
+		  </td>
+	  </tr>
+	  <tr valign="top">
+		  <td width="25%" style="border: none; padding: 0in"><p class="western">
+			  <font color="#ffffff"><font face="Noto Serif CJK JP, serif"><font size="4" style="font-size: 15pt"><span lang="zh-CN">雨四光「あめしこう」</span></font></font>Ameshikō</font></p>
+		  </td>
+		  <td width="25%" style="border: none; padding: 0in"><p class="western">
+			  <font color="#ffffff">Rainy Four Lights</font></p>
+		  </td>
+		  <td width="25%" style="border: none; padding: 0in"><p class="western">
+			  <font color="#ffffff">7</font></p>
+		  </td>
+		  <td width="25%" style="border: none; padding: 0in"><p class="western">
+			  <font color="#ffffff">3 20 points cards + Ono no Michikaze /
+			  Rainman card</font></p>
+		  </td>
+	  </tr>
+	  <tr valign="top">
+		  <td width="25%" style="border: none; padding: 0in"><p class="western">
+			  <font color="#ffffff"><font face="Noto Serif CJK JP, serif"><font size="4" style="font-size: 15pt"><span lang="zh-CN">三光「さんこう」</span></font></font>Sankō</font></p>
+		  </td>
+		  <td width="25%" style="border: none; padding: 0in"><p class="western">
+			  <font color="#ffffff">Three Lights</font></p>
+		  </td>
+		  <td width="25%" style="border: none; padding: 0in"><p class="western">
+			  <font color="#ffffff">5</font></p>
+		  </td>
+		  <td width="25%" style="border: none; padding: 0in"><p class="western">
+			  <font color="#ffffff">3 20 points cards</font></p>
+			  <p class="western"><font color="#ffffff">EXCEPT Ono no Michikaze /
+			  Rainman card</font></p>
+		  </td>
+	  </tr>
+	  <tr valign="top">
+		  <td width="25%" style="border: none; padding: 0in"><p class="western">
+			  <font color="#ffffff"><font face="Noto Serif CJK JP, serif"><font size="4" style="font-size: 15pt"><span lang="zh-CN">月見酒「つきみざけ」</span></font></font>Tsukimizake</font></p>
+		  </td>
+		  <td width="25%" style="border: none; padding: 0in"><p class="western">
+			  <font color="#ffffff">Moon Viewing</font></p>
+		  </td>
+		  <td width="25%" style="border: none; padding: 0in"><p class="western">
+			  <font color="#ffffff">5</font></p>
+		  </td>
+		  <td width="25%" style="border: none; padding: 0in"><p class="western">
+			  <font color="#ffffff">Moon card +</font></p>
+			  <p class="western"><font color="#ffffff">Sake card</font></p>
+		  </td>
+	  </tr>
+	  <tr valign="top">
+		  <td width="25%" style="border: none; padding: 0in"><p class="western">
+			  <font color="#ffffff"><font face="Noto Serif CJK JP, serif"><font size="4" style="font-size: 15pt"><span lang="zh-CN">花見酒「はなみざけ」</span></font></font>Hanamizake</font></p>
+		  </td>
+		  <td width="25%" style="border: none; padding: 0in"><p class="western">
+			  <font color="#ffffff">Cherry Blossoms Viewing</font></p>
+		  </td>
+		  <td width="25%" style="border: none; padding: 0in"><p class="western">
+			  <font color="#ffffff">5</font></p>
+		  </td>
+		  <td width="25%" style="border: none; padding: 0in"><p class="western">
+			  <font color="#ffffff">Curtain card +</font></p>
+			  <p class="western"><font color="#ffffff">Sake card</font></p>
+		  </td>
+	  </tr>
+	  <tr valign="top">
+		  <td width="25%" style="border: none; padding: 0in"><p class="western">
+			  <font color="#ffffff"><font face="Noto Serif CJK JP, serif"><font size="4" style="font-size: 15pt"><span lang="zh-CN">猪鹿蝶「いのしかちょう」</span></font></font>Inoshikachō</font></p>
+		  </td>
+		  <td width="25%" style="border: none; padding: 0in"><p class="western">
+			  <font color="#ffffff">Boar, deer, butterflies</font></p>
+		  </td>
+		  <td width="25%" style="border: none; padding: 0in"><p class="western">
+			  <font color="#ffffff">5</font></p>
+		  </td>
+		  <td width="25%" style="border: none; padding: 0in"><p class="western">
+			  <font color="#ffffff">Boar, deer and butterflies cards</font></p>
+		  </td>
+	  </tr>
+	  <tr valign="top">
+		  <td width="25%" style="border: none; padding: 0in"><p class="western">
+			  <font color="#ffffff"><font face="Noto Serif CJK JP, serif"><font size="4" style="font-size: 15pt"><span lang="zh-CN">タネ　</span></font></font>Tane</font></p>
+		  </td>
+		  <td width="25%" style="border: none; padding: 0in"><p class="western">
+			  <font color="#ffffff">Animals</font></p>
+		  </td>
+		  <td width="25%" style="border: none; padding: 0in"><p class="western">
+			  <font color="#ffffff">1 point + 1 point for each additional 10
+			  point card</font></p>
+		  </td>
+		  <td width="25%" style="border: none; padding: 0in"><p class="western">
+			  <font color="#ffffff">5 animal cards</font></p>
+		  </td>
+	  </tr>
+	  <tr valign="top">
+		  <td width="25%" style="border: none; padding: 0in"><p class="western">
+			  <font color="#ffffff"><font face="Noto Serif CJK JP, serif"><font size="4" style="font-size: 15pt"><span lang="zh-CN">赤短</span></font></font>*<font face="Noto Serif CJK JP, serif"><font size="4" style="font-size: 15pt"><span lang="zh-CN">青短の重複「あかたんあおたんのちょうふく」</span></font></font>Akatan-Aotan-no-chōfuku</font></p>
+		  </td>
+		  <td width="25%" style="border: none; padding: 0in"><p class="western">
+			  <font color="#ffffff">Red poetry ribbons, Blue ribbons combination</font></p>
+		  </td>
+		  <td width="25%" style="border: none; padding: 0in"><p class="western">
+			  <font color="#ffffff">10</font></p>
+		  </td>
+		  <td width="25%" style="border: none; padding: 0in"><p class="western">
+			  <font color="#ffffff">All red poetry and blue ribbon cards</font></p>
+		  </td>
+	  </tr>
+	  <tr valign="top">
+		  <td width="25%" style="border: none; padding: 0in"><p class="western">
+			  <font color="#ffffff"><font face="Noto Serif CJK JP, serif"><font size="4" style="font-size: 15pt"><span lang="zh-CN">赤短</span></font></font></font></p>
+		  </td>
+		  <td width="25%" style="border: none; padding: 0in"><p class="western">
+			  <font color="#ffffff">Red poetry combination</font></p>
+		  </td>
+		  <td width="25%" style="border: none; padding: 0in"><p class="western">
+			  <font color="#ffffff">5</font></p>
+		  </td>
+		  <td width="25%" style="border: none; padding: 0in"><p class="western">
+			  <font color="#ffffff">All red poetry cards</font></p>
+		  </td>
+	  </tr>
+	  <tr valign="top">
+		  <td width="25%" style="border: none; padding: 0in"><p class="western">
+			  <font color="#ffffff"><font face="Noto Serif CJK JP, serif"><font size="4" style="font-size: 15pt"><span lang="zh-CN">青短</span></font></font></font></p>
+		  </td>
+		  <td width="25%" style="border: none; padding: 0in"><p class="western">
+			  <font color="#ffffff">Blue ribbons</font></p>
+		  </td>
+		  <td width="25%" style="border: none; padding: 0in"><p class="western">
+			  <font color="#ffffff">5</font></p>
+		  </td>
+		  <td width="25%" style="border: none; padding: 0in"><p class="western">
+			  <font color="#ffffff">All blue ribbon cards</font></p>
+		  </td>
+	  </tr>
+	  <tr valign="top">
+		  <td width="25%" style="border: none; padding: 0in"><p class="western">
+			  <font color="#ffffff"><font face="Noto Serif CJK JP, serif"><font size="4" style="font-size: 15pt"><span lang="zh-CN">短冊「たんざく」</span></font></font></font></p>
+		  </td>
+		  <td width="25%" style="border: none; padding: 0in"><p class="western">
+			  <font color="#ffffff">Poetry Slips</font></p>
+		  </td>
+		  <td width="25%" style="border: none; padding: 0in"><p class="western">
+			  <font color="#ffffff">1 point + 1 point for each additional 5
+			  point card</font></p>
+		  </td>
+		  <td width="25%" style="border: none; padding: 0in"><p class="western">
+			  <font color="#ffffff">5 ribbon slips</font></p>
+		  </td>
+	  </tr>
+	  <tr valign="top">
+		  <td width="25%" style="border: none; padding: 0in"><p class="western">
+			  <font color="#ffffff"><font face="Noto Serif CJK JP, serif"><font size="4" style="font-size: 15pt"><span lang="zh-CN">カス</span></font></font></font></p>
+		  </td>
+		  <td width="25%" style="border: none; padding: 0in"><p class="western">
+			  <font color="#ffffff">Kasu / Chaffs</font></p>
+		  </td>
+		  <td width="25%" style="border: none; padding: 0in"><p class="western">
+			  <font color="#ffffff">1 point + 1 point for each additional 1pt
+			  card</font></p>
+		  </td>
+		  <td width="25%" style="border: none; padding: 0in"><p class="western">
+			  <font color="#ffffff">10 chaff cards</font></p>
+		  </td>
+	  </tr>
+  </table>
+  <hr/>
+
+  <p class="western" style="line-height: 100%; margin-bottom: 0in; page-break-before: auto">
+  <br/>
+</div>
+
+
+<!--################################# - CLI COMMANDS - #######################################-->
+
+
+<div id="cmds">
+  </p>
+  <p class="western" style="line-height: 100%; margin-bottom: 0in; page-break-before: always">
+  <font color="#ffffff">Page 9 / X [ <a href="#top">Return to summary</a> ]</font></p>
+  <p align="left" style="line-height: 100%; margin-top: 0.17in; margin-bottom: 0.08in; page-break-before: auto; page-break-after: avoid">
+  <font color="<!--################################# - CLI COMMANDS - #######################################-->"><font size="7" style="font-size: 32pt"><b>CLI
+  game commands</b></font></font></p>
+  <p class="western"><br/>
+  <br/>
+
+  </p>
+</div>
+
+
+
+<!--################################# - NEXT PAGE - #######################################-->
+
+
+</body>
+</html>

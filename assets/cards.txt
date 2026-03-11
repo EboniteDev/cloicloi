@@ -1,0 +1,60 @@
+Season: January – Pine tree（松「まつ」Matsu）
+	Cards:
+		Crane and Sun – Light/Bright card ( 20 points )
+		Anoyoroshi Poetry Red Ribbon ( 5 points )
+		2 chaffs ( 1 point ) cards
+Season: February – Plum blossoms（梅「うめ」Ume）
+	Cards:
+		Bush warbler – Animal card ( 10 points )
+		Anoyoroshi Poetry Red Ribbon ( 5 points )
+		2 chaffs ( 1 point )
+Season: March – Cherry blossoms（桜「さくら」Sakura）
+	Cards:
+		Curtain - Light ( 20 points )
+		Mi?na?shino Poetry Red Ribbon ( 5 points )
+		2 chaffs ( 1 point )
+Season: April – Wisteria（藤「ふじ」Fuji）
+	Cards:
+		Cuckoo - Animal ( 10 points )
+		Plain Red Ribbon ( 5 points )
+		2 chaffs ( 1 point )
+Season: May – Iris（菖蒲「あやめ」Ayame）
+	Cards:
+		Eight-plank bridge - Animal ( 10 points )
+		Plain Red Ribbon ( 5 points )
+		2 chaffs ( 1 point )
+Season: June – Peony（牡丹「ぼたん」Botan）
+	Cards:
+		Butterflies - Animal ( 10 points )
+		Blue Ribbon ( 5 points )
+		2 chaffs ( 1 point )
+Season: July – Bush Clover（萩「はぎ」Hagi）
+	Cards:
+		Boar - Animal ( 10 points )
+		Plain Red Ribbon ( 5 points )
+		2 chaffs ( 1 point )
+Season: August – Susuki grass（芒「すすき」）
+	Cards:
+		Full moon - Light ( 20 points )
+		Geese - Animal ( 10 points )
+		2 chaffs ( 1 point )
+Season: September – Chrysanthemum(菊「きく」Kiku)
+	Cards:
+		Sake cup - Animal ( 10 points )
+		Blue Ribbon ( 5 points )
+		2 chaffs ( 1 point )
+Season: October – Maple（紅葉「もみじ」Momiji）
+	Cards:
+		Deer - Animal ( 10 points )
+		Blue Ribbon ( 5 points )
+		2 chaffs ( 1 point )
+Season: November – Willow（柳「やなぎ」Yanagi）
+	Cards:
+		Ono no Michikaze / Ono no Tōfū / Rainman card - Light ( 20 points )
+		Swallow - Animal ( 10 points )
+		Plain Red Ribbon ( 5 points )
+		Lightning / Demon - Chaff card
+Season: December – Paulownia（桐「きり」Kiri）
+	Cards:
+		Phoenix (鳳凰「ほうおう」Hōō) - Light ( 20 points )
+		3 chaffs ( 1 point )
